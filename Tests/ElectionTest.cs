@@ -16,7 +16,7 @@ namespace entra21_tests
             var candidates = new List<Candidate>{Jose};
 
             // Quando / Ação
-            var created = election.CreateCandidates(candidates, "incorrect");
+            var created = election.CreateCandidates(candidates, "senhaErrada");
 
             // Deve / Asserções
             Assert.Empty(election.Candidates);

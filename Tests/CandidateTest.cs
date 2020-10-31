@@ -10,7 +10,7 @@ namespace Tests
         {
             var name = "João da Silva";
             var CPF = "895.658.478-89";
-            
+
             var candidate = new Candidate(name, CPF);
 
             Assert.Equal(name, candidate.Name);
